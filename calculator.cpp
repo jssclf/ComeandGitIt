@@ -4,6 +4,9 @@
 int main()
 
 {
+    cout << "CALCULATOR BY JESSICA FRIAS" << endl
+        << "-----------------------------" << endl;
+
 
     int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers, modOfTwoNumbers;
 
