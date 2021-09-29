@@ -1,12 +1,13 @@
 #include <iostream>
-
-using namespace std;
+    using namespace std;
 
 int main()
 
 {
 
-    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers;
+    int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers, modOfTwoNumbers;
+
+
     cout << "Enter first number: ";
     cin >> firstNumber;
     cout << "Enter second number: ";
@@ -16,11 +17,13 @@ int main()
     diffOfTwoNumbers = firstNumber - secondNumber;
     prodOfTwoNumbers = firstNumber * secondNumber;
     quotOfTwoNumbers = firstNumber / secondNumber;
+    modOfTwoNumbers = firstNumber % secondNumber;
 
     cout << endl << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
     cout << endl << firstNumber << " - " <<  secondNumber << " = " << diffOfTwoNumbers;
     cout << endl << firstNumber << " * " <<  secondNumber << " = " << prodOfTwoNumbers;    
     cout << endl << firstNumber << " * " <<  secondNumber << " = " << quotOfTwoNumbers;    
+    cout << endl << firstNumber << " % " <<  secondNumber << " = " << quotOfTwoNumbers;  
 
     return 0;
 
